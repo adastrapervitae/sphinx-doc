@@ -3,13 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Как использовать Sphinx-doc и rst для работы с документацией's documentation!
+Как использовать Sphinx-doc и rst для работы с документацией
 ========================================================================================
+
+Оглавление:
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   installation.rst
+   restructuredtest.rst
+   makingdocs.rst
 
 
 Indices and tables
