@@ -8,24 +8,24 @@ Linux
 Debian/Ubuntu
 ~~~~~~~~~~~~~
 
-Установите ``python3-sphinx`` используя :command:`apt-get`:
+Установите пакет ``python3-sphinx`` используя apt-get:
 
 ::
 
    $ apt-get install python3-sphinx
 
-If it not already present, this will install Python for you.
+Если python не был до этого установлен, команда установит Python на компьютер.
 
 RHEL, CentOS
 ~~~~~~~~~~~~
 
-Install ``python-sphinx`` using :command:`yum`:
+Установите пакет ``python-sphinx`` используя yum:
 
 ::
 
    $ yum install python-sphinx
 
-If it not already present, this will install Python for you.
+Если python не был до этого установлен, команда установит Python на компьютер.
 
 Other distributions
 ~~~~~~~~~~~~~~~~~~~
