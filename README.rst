@@ -27,21 +27,16 @@ RHEL, CentOS
 
 Если python не был до этого установлен, команда установит Python на компьютер.
 
-Other distributions
+Другие дистрибутивы
 ~~~~~~~~~~~~~~~~~~~
 
-Most Linux distributions have Sphinx in their package repositories.  Usually
-the package is called ``python3-sphinx``, ``python-sphinx`` or ``sphinx``.  Be
-aware that there are at least two other packages with ``sphinx`` in their name:
-a speech recognition toolkit (*CMU Sphinx*) and a full-text search database
-(*Sphinx search*).
+Большинство дистрибутивов Linux имеют Sphinx в своих репозиториях пакетов. Обычно пакет называется ``python3-sphinx``, ``python-sphinx`` или ``sphinx``.
 
 
 macOS
 -----
 
-Sphinx can be installed using `Homebrew`__, `MacPorts`__, or as part of
-a Python distribution such as `Anaconda`__.
+Sphinx обычно устанавливают используя `Homebrew`__, `MacPorts`__, или через pip, используя пакет поставки `Anaconda`__.
 
 __ https://brew.sh/
 __ https://www.macports.org/
@@ -54,27 +49,27 @@ Homebrew
 
    $ brew install sphinx-doc
 
-For more information, refer to the `package overview`__.
+Для получения дополнительной информации: `package overview`__.
 
 __ https://formulae.brew.sh/formula/sphinx-doc
 
 MacPorts
 ~~~~~~~~
 
-Install either ``python3x-sphinx`` using :command:`port`:
+Установите пакет ``python3x-sphinx`` используя `port`:
 
 ::
 
    $ sudo port install py38-sphinx
 
-To set up the executable paths, use the ``port select`` command:
+Установите пути до исполняемых файлов, используя комманду ``port select``:
 
 ::
 
    $ sudo port select --set python python38
    $ sudo port select --set sphinx py38-sphinx
 
-For more information, refer to the `package overview`__.
+Для получения дополнительной информации: `package overview`__.
 
 __ https://www.macports.org/ports.php?by=library&substr=py38-sphinx
 
@@ -89,7 +84,7 @@ Windows
 -------
 
 Sphinx можно установить используя менеджер пакетов `Chocolatey`__ или
-:ref:`Установить используя pip <windows-other-method>`.
+установить используя pip.
 
 __ https://chocolatey.org/
 
@@ -100,39 +95,30 @@ Chocolatey
 
    $ choco install sphinx
 
-You would need to `install Chocolatey
-<https://chocolatey.org/install>`_
-before running this.
+Для этого предварительно надо установить менеджер пакетов `install Chocolatey
+<https://chocolatey.org/install>`_.
 
-For more information, refer to the `chocolatey page`__.
+Для получения дополнительной информации: `chocolatey page`__.
 
 __ https://chocolatey.org/packages/sphinx/
 
 .. _windows-other-method:
 
-Other Methods
+Установка используя pip
 ~~~~~~~~~~~~~
 
-Most Windows users do not have Python installed by default, so we begin with
-the installation of Python itself.  To check if you already have Python
-installed, open the *Command Prompt* (:kbd:`⊞Win-r` and type :command:`cmd`).
-Once the command prompt is open, type :command:`python --version` and press
-Enter.  If Python is installed, you will see the version of Python printed to
-the screen.  If you do not have Python installed, refer to the `Hitchhikers
-Guide to Python's`__ Python on Windows installation guides. You must install
+У большинства пользователей Windows python не установлен по умолчанию, поэтому мы начнем с
+установка самого Python. Если у вас не установлен Python, обратитесь к `Hitchhikers
+Guide to Python's`__ в раздел Python on Windows. Вам необходимо установить
 `Python 3`__.
 
-Once Python is installed, you can install Sphinx using :command:`pip`.  Refer
-to the :ref:`pip installation instructions <install-pypi>` below for more
-information.
+После установки Python можно установить теперь Sphinx с помощью комманды`pip`. Описанному далее ниже в разделе `Установка используя PyPI`.
 
 __ https://docs.python-guide.org/
 __ https://docs.python-guide.org/starting/install3/win/
 
 
-.. _install-pypi:
-
-Installation from PyPI
+Установка используя PyPI
 ----------------------
 
 Sphinx packages are published on the `Python Package Index
