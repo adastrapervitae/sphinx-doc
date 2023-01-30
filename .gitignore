@@ -22,6 +22,7 @@ sphinx/pycode/Grammar*pickle
 distribute-*
 
 env/
+build/
 dist/
 docker/
 Sphinx.egg-info/
