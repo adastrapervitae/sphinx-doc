@@ -12,10 +12,8 @@
    :maxdepth: 2
    :caption: Contents:
 
+   intro
    installation
-   restructuredtest
-   makingdocs
-
 
 Индексы и таблицы
 ==================
